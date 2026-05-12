@@ -1,0 +1,25 @@
+mysql> SELECT teksti_kood, nimetus, sisu from metaandmed WHERE teksti_kood IN ('eol_472648', 'eol_476728', 'ert_350450', 'eol_970203', 'eol_1608688177', 'ol_2009-05-15_96', 'ol_2008-12-14_29', 'eol_315678', 'ert_315541', 'ol_2024-03-19_32');
++------------------+------------+------------------------------------------------------------------------------------+
+| teksti_kood      | nimetus    | sisu                                                                               |
++------------------+------------+------------------------------------------------------------------------------------+
+| eol_1608688177   | kategooria | Välismaa                                                                           |
+| eol_1608688177   | pealkiri   | USA ja Taiwan alustavad ametlikke kaubanduskõnelusi                                |
+| eol_315678       | kategooria | Kultuur                                                                            |
+| eol_315678       | pealkiri   | Tarvo Krall: improteater avab hoopis teised ajukanalid                             |
+| eol_472648       | kategooria | Eesti                                                                              |
+| eol_472648       | pealkiri   | Delfine omanik kaebas Pärnu linna kohtusse                                         |
+| eol_476728       | kategooria | Eesti                                                                              |
+| eol_476728       | pealkiri   | Piletikontrolöride ametikohtadest on täidetud vaid pooled                          |
+| eol_970203       | kategooria | Majandus                                                                           |
+| eol_970203       | pealkiri   | Analüüs | Lahing uute tubakatoodete pärast                                         |
+| ert_315541       | kategooria | minu-eestimaa-marina-kaljurand                                                     |
+| ert_315541       | tootja     | ERR Videoarhiiv                                                                    |
+| ert_350450       | kategooria | uudised-analuutikud-turg-korrigeerib-end-parast-eelmise-aasta-tarbimise-madalseisu |
+| ert_350450       | tootja     | ERR Audioarhiiv                                                                    |
+| ol_2008-12-14_29 | kategooria | melu/inimesed                                                                      |
+| ol_2008-12-14_29 | pealkiri   | Epp Petrone tutvustab korraga kolme raamatut                                       |
+| ol_2009-05-15_96 | kategooria | sport/kergejoustik                                                                 |
+| ol_2009-05-15_96 | pealkiri   | Usain Bolt jookseb Manchesteri linnatänaval                                        |
+| ol_2024-03-19_32 | kategooria | melu/inimesed                                                                      |
+| ol_2024-03-19_32 | pealkiri   | Suri näitleja Meeli Sööt                                                           |
++------------------+------------+------------------------------------------------------------------------------------+

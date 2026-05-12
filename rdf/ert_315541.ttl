@@ -1,0 +1,22 @@
+@prefix art: <http://mkm.ee/article/> .
+@prefix dct: <http://purl.org/cdt/terms/> .
+@prefix ent: <http://mkm.ee/entity/> .
+@prefix ex: <http://mkm.ee/schema/> .
+@prefix nlp: <http://mkm.ee/nlp/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+art:ert_315541 a ex:Article ;
+    nlp:lemmas ( "m." "ämbrike" "juuresolevalt" "a." "lohusalu" "väljalülitumine" "eestimaa" "männimets" ) ;
+    ex:bodyText """M. Minu nimi on Marina kaljurand ja me oleme praegu Kõpu poolsaarel. Oleme imeilusas männimetsas. Ma olen tihti mõelnud, et mis on minu jaoks need Eesti kohad,  mis mulle meeldivad. Ja need on ikkagi need kohad, millega ma olen lapsepõlvest harjunud. Kogu minu lapsepõlv möödus mere ääres ja männimetsas. Ja ilmselt ma olengi selle kaasa saanud ja mul ei ole vahet,  kas see männimets on Lohusalus või see männimets on kõbu poolsaarel. Mulle meeldib. Mulle meeldib see lõhn. Mulle meeldivad need pikad sirged puud. Mulle meeldib see rohelus, mulle meeldivad mustikad. Mulle meeldivad kukeseened, mulle meeldib kõik,  mis siin on. Ja ma olen sellega nii ära harjunud. Ma olen püüdnud seda edasi anda oma lastele. Nii et me oleme käinud siin lastega mööda sedasama metsateed. No ma arvan, sadu kordi nüüd lapselastega. Ja ma arvan, et see ongi see tükike minu loodust  ja minu Eestimaad mida ma tahan neile edasi anda. Muidugi nad leiavad oma kohad. Aga ma väga tahaksin, et kui nad kunagi suuremaks kasvavad,  eriti nad praegu kahesed poisid siis nad mäletavad,  kuidas nad jalutasid mammaga ja nad kutsuvad mind mammaks. Kuidas nad jalutasid mammaga Kõpu poolsaarel männimetsas  ja korjasid kukeseeni ja. Ja mulle meeldis alati, et kui me läksime metsa,  mul oli kaasas võileib ja joogitops ja see võileib võis olla  täpselt seesama võileib, mida ma sõin hommikul. Aga et ma sain metsas süüa. Et nüüd, kui me tuleme väikeste poistega metsa. Ma püüan alati ka midagi kaasa võtta. Ja alati, kui me metsa jõuame, ometigi nad on söögilauas tõusnud,  on kohe esimene küsimus, kas meil on süüa,  kas meil on juua, tahaks midagi. Nii et see on hästi armas. See marjade korjamine ja see suur rõõm, kui ta leiab seene,  no ütleme, kaheaastased leiavad ikka päris raskelt. No nad tuleb ikka praktiliselt ikka kätpidi  selle seene juurde viia, siis nad alles märkavad. Aga ma arvan, et need emotsioonid on samad. Marjad on sama maitsvad, mida on näha ka juuresolevalt pildilt. Ma ei mäleta, et Kõpu poolsaarel oleks olnud  nii palju mustikaid, nagu see aasta. Jaa. Ja, ja see on nii huvitav, et mõned aastad tagasi märkasin,  et meie šoti terjer lennu on hakanud mustikaid sööma. Alguses ta käis ja sõi sellest korvist või ämbrikesest,  kuhu ma mustikaid korjasin, et kui ma pilgu ära pöörasin,  siis oli tema nina kohe seal korvikese sees. Noh, ega ma ei lubanud tal seda teha. Ja siis ta hakkas ise mustikaid korjama ja nüüd,  kui me tuleme metsa, ta läheb, sätib enda ilusasti sinna  sambla peale ja sööki mustikaid. Ma. Ma arvan, et ma käin iga päev metsas ja mul on selleks põhjus,  on koerad. Kui ma käin koertega, siis ma käin vaikuses. Ja selles vaikuses, ma arvan, ma olen valmis kirjutanud kõned,  mida mul on vaja. Ma olen mõelnud läbi eelmise päeva, tänase päeva,  homse päeva. Et see on nagu väljalülitumine siin Kõpu poolsaarel oleme me  koertega käinud nii palju ringi. Meil on 21 rada, mis meile meeldivad. See, kuhu ma teid täna tõi, on meie lemmik. A. Ma arvan, et meie Eestimaa suur väärtus ongi see puutumatu loodus,  ka puututud loodus, ka loodus, kus me käime,  aga loodus, mis meid ümbritseb ja Hiiumaal ma puutun siin  kokku päris palju ka välismaalastega, kas nad küsivad teed  või nad Küsivad midagi Hiiumaa kohta ja noh, praktiliselt igaüks  neist on imestunud, kui kaunis siin on, kui ilus siin on,  kui metsik siin on? Samas turvaline no mõned rästikud roomavad ringi,  mõned metsad jooksevad ringi, aga ta on ikkagi turvaline  võrreldes muu maailmaga. Nii et noh, tegelikult ma olen väga vedanud,  et ma olen sündinud just selles sellel mool ja,  ja sellel ajal
+""" ;
+    ex:mentions ent:loc_eesti,
+        ent:loc_hiiumaa,
+        ent:loc_kõpu_poolsaar,
+        ent:per_marina_kaljurand ;
+    ex:source "ert" ;
+    dct:created "2020-09-16"^^xsd:date ;
+    prov:generatedAtTime "2026-02-24T00:24:08"^^xsd:datetime .
+
+

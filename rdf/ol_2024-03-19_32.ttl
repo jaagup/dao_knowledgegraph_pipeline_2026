@@ -1,0 +1,29 @@
+@prefix art: <http://mkm.ee/article/> .
+@prefix dct: <http://purl.org/cdt/terms/> .
+@prefix ent: <http://mkm.ee/entity/> .
+@prefix ex: <http://mkm.ee/schema/> .
+@prefix nlp: <http://mkm.ee/nlp/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+art:ol_2024-03-19_32 a ex:Article ;
+    nlp:lemmas ( "maila" "aav" "loomaa" "tšehhov" "margareta" "pihlakavärav" "saul" "faust" ) ;
+    ex:bodyText """Suri näitleja Meeli Sööt Eesti näitlejate liidu auliige Meeli Sööt oli pärit teatriperest, ka tema isa Voldemar Alev oli aastaid Draamateatri näitleja. Temaga koos lõpetasid lavakunstikateedri esimeses lennus Ines Aru, Aarne Üksküla, Siina Üksküla, Tõnu Aav, Mikk Mikiver, Mati Klooren, Maila Rästas, Jaan Saul, Rein Olmaru, Linda Olmaru jt. LAVAKA I LEND AASTAL 2007: Aarne Üksküla, Siina Üksküla, Meeli Alev-Sööt, Maila Rästas, Sirje Põldots-Raudsik, Linda Kuusma-Olmaru ja Tõnu Aav. (Tiina Kõrtsini) Sööt on mänginud Solvejg Ibseni Peer Gyntis (1962), Margareta Goethe Faustis (1968 ja 1969), Saša Tšehhovi Ivanovis (1971), madame Jourdain Molièrei Kodanlasest aadlimehes (1990). Ka oli tal roll paljudes telelavastustes ja filmides nagu Klaasist loomaaed (1964), Must luik (1969), Pihlakaväravad (1981) ja Teenijanna (1990). Meeli Sööt näitles ka Kelgukoertes (2008 ja 2011). 19902004 oli Meeli Sööt lavapraktika õppejõud Eesti muusikaakadeemia kõrgemas lavakunstikoolis, aastast 1996 dotsent.
+""" ;
+    ex:mentions ent:per_aarne_üksküla,
+        ent:per_ines_aru,
+        ent:per_jaan_saul,
+        ent:per_linda_olmaru,
+        ent:per_maila_rästas,
+        ent:per_mati_klooren,
+        ent:per_meeli_sööt,
+        ent:per_mikk_mikiver,
+        ent:per_rein_olmaru,
+        ent:per_tõnu_aav ;
+    ex:source "ol" ;
+    dct:created "2024-03-19"^^xsd:date ;
+    dct:title "Suri näitleja Meeli Sööt" ;
+    prov:generatedAtTime "2026-02-24T01:13:03"^^xsd:datetime .
+
+

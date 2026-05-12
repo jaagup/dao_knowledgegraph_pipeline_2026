@@ -1,0 +1,28 @@
+@prefix art: <http://mkm.ee/article/> .
+@prefix dct: <http://purl.org/cdt/terms/> .
+@prefix ent: <http://mkm.ee/entity/> .
+@prefix ex: <http://mkm.ee/schema/> .
+@prefix nlp: <http://mkm.ee/nlp/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+art:eol_1608688177 a ex:Article ;
+    nlp:lemmas ( "taiwan" "nancy" "peking" "washington" "sarah" "kaubandusesindaja" "turuväline" "journal" ) ;
+    ex:bodyText """USA ja Taiwan alustavad ametlikke kaubanduskõnelusi
+Uues lepingus käsitletakse ka võimalusi, kuidas reageerida riigifirmade turuvälisele poliitikale, teatas USA kaubandusesindaja. USA viitas nii Hiina poliitikale, vahendas The Wall Street Journal.  Pinged Taiwani üle USA ja Hiina vahel kasvavad. Hiljuti külastas iseseisvat saareriiki kongressi juht Nancy Pelosi.  "See pakt süvendab meie kaubandussuhteid, edendab ühistel väärtustel põhinevaid prioriteete ning edendab innovatsiooni ja majanduskasvu," ütles USA kaubandusesindaja asetäitja Sarah Bianchi.  Hiina kritiseerib USA ja Taiwani suhete suurenemist. Peking väidab, et USA on eemaldumas poliitikast, mis tunnustab Hiina Rahvavabariiki riigi ainsa legitiimse valitsusena.  USA rõhutab, et Washingtoni poliitika Hiina ja Taiwani suhtes ei muutu. USA kavatseb laiendada oma majanduslikku tegevust Aasia ja Vaikse ookeani piirkonnas, et piirata seal Hiina mõjuvõimu kasvamist.  USA peab piirkonna riikidega läbirääkimisi majanduspakti (IPEF) loomiseks. Taiwan on avaldanud huvi paktiga ühinemise vastu, kuid Taipeid pole läbirääkimistesse kaasatud. IPEF-i riikide ametnikud kohtuvad USA-s septembris. 
+""" ;
+    ex:mentions ent:loc_aasia,
+        ent:loc_hiina,
+        ent:loc_hiina_rahvavabariik,
+        ent:loc_peking,
+        ent:loc_taiwan,
+        ent:loc_usa,
+        ent:loc_vaikne_ookean,
+        ent:loc_washington ;
+    ex:source "eol" ;
+    dct:created "2022-08-18"^^xsd:date ;
+    dct:title "USA ja Taiwan alustavad ametlikke kaubanduskõnelusi" ;
+    prov:generatedAtTime "2026-02-23T23:37:42"^^xsd:datetime .
+
+

@@ -1,0 +1,22 @@
+@prefix art: <http://mkm.ee/article/> .
+@prefix dct: <http://purl.org/cdt/terms/> .
+@prefix ent: <http://mkm.ee/entity/> .
+@prefix ex: <http://mkm.ee/schema/> .
+@prefix nlp: <http://mkm.ee/nlp/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+art:ol_2008-12-14_29 a ex:Article ;
+    nlp:lemmas ( "petrone" "epp" "moldova" "maria" "vaeseim" "alaska" "print" "viru" ) ;
+    ex:bodyText """Epp Petrone tutvustab korraga kolme raamatut Viru Keskuse asuvas Rahva Raamatus tulevad kell 15.00 esitlusele Maria Kupinsjaka „Minu Alaska: kasvatamas kelgukoeri ja iseennast", Mai Loogi "Minu Tai: sinimustvalge jänku igaveses suves" ja Marje Aksli „Minu Moldova: diplomaadi naisena Euroopa vaeseimas riigis". Esitlusel intervjueerib autoreid kirjastuse Petrone Print esindaja ja raamatute üks toimetaja Epp Petrone. Kõrvale näidatakse slaide Alaskast, Taist ja Moldovast. 
+""" ;
+    ex:mentions ent:loc_alaska,
+        ent:loc_viru_keskus,
+        ent:per_epp_petrone ;
+    ex:source "ol" ;
+    dct:created "2008-12-14"^^xsd:date ;
+    dct:title "Epp Petrone tutvustab korraga kolme raamatut" ;
+    prov:generatedAtTime "2026-02-24T01:56:08"^^xsd:datetime .
+
+

@@ -1,0 +1,22 @@
+@prefix art: <http://mkm.ee/article/> .
+@prefix dct: <http://purl.org/cdt/terms/> .
+@prefix ent: <http://mkm.ee/entity/> .
+@prefix ex: <http://mkm.ee/schema/> .
+@prefix nlp: <http://mkm.ee/nlp/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+art:ol_2009-05-15_96 a ex:Article ;
+    nlp:lemmas ( "simeon" "bailey" "johnson" "tänavajooks" "michael" "george" "manchester" "bolt" ) ;
+    ex:bodyText """Usain Bolt jookseb Manchesteri linnatänaval Bolt võistleb 150 meetri distantsil Briti sprinterite Mark Lewis-Francise ja Simeon Williamsoni vastu. Bolt võistleb esimest korda pärast 29. aprilli autoõnnetust, milles ta kergelt vigastas vasakut jalga. Korraldajate idee on aga meenutada ajalugu - Inglismaal olid tänavajooksud populaarsed 19. sajandil. Väidetavalt olevat tollane parim sprinter George Seward läbinud 100 jardi 9 ja veerandi sekundiga. Ümber arvestatuna 100 meetrile ja tänapäeva elektroonilisele ajavõtule, annaks see Sewardi tulemuseks umbes 10,4-10,5. 1997. aastal võistlesid 150 meetris kaks olümpiavõitjat - lühikese sprindi kuld Donovan Bailey ja pika sprindi kuld Michael Johnson. Kahjuks lõppes see jooks poolel maal, sest Johnson katkestas reielihase venituse tõttu.
+""" ;
+    ex:mentions ent:loc_inglismaa,
+        ent:loc_manchester,
+        ent:per_usain_bolt ;
+    ex:source "ol" ;
+    dct:created "2009-05-15"^^xsd:date ;
+    dct:title "Usain Bolt jookseb Manchesteri linnatänaval" ;
+    prov:generatedAtTime "2026-02-24T00:32:28"^^xsd:datetime .
+
+

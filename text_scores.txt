@@ -1,0 +1,56 @@
+mysql> SELECT * from teksti_skoorid WHERE teksti_kood IN ('eol_472648', 'eol_476728', 'ert_350450', 'eol_970203', 'eol_1608688177', 'ol_2009-05-15_96', 'ol_2008-12-14_29', 'eol_315678', 'ert_315541', 'ol_2024-03-19_32');
++----------+---------+--------------------+------------------+---------------------------+---------+
+| id       | tyyp    | nimetus            | teksti_kood      | skoor                     | skoor_d |
++----------+---------+--------------------+------------------+---------------------------+---------+
+|  1302538 | mudel   | majandusmudel1.bin | eol_1608688177   |        0.5615374445915222 |  0.5615 |
+|  1726100 | mudel   | loodusmudel1.bin   | eol_1608688177   |   0.000008940696716308594 |  0.0000 |
+|  3060373 | mudel   | tehnikamudel6.bin  | eol_1608688177   |        0.9983319640159607 |  0.9983 |
+|  7477778 | mudel   | kultuurimudel1.bin | eol_1608688177   |    0.00003600120544433594 |  0.0000 |
+| 10323071 | erisonu | erisonu            | eol_1608688177   |                        98 |    NULL |
+|  1391733 | mudel   | majandusmudel1.bin | eol_315678       |        0.0299530029296875 |  0.0300 |
+|  1815295 | mudel   | loodusmudel1.bin   | eol_315678       |       0.15232419967651367 |  0.1523 |
+|  3149568 | mudel   | tehnikamudel6.bin  | eol_315678       |      0.043352603912353516 |  0.0434 |
+|  7566973 | mudel   | kultuurimudel1.bin | eol_315678       |        0.8164927363395691 |  0.8165 |
+|  9933053 | erisonu | erisonu            | eol_315678       |                       630 |    NULL |
+|  1500299 | mudel   | majandusmudel1.bin | eol_472648       |        0.6694988012313843 |  0.6695 |
+|  1923861 | mudel   | loodusmudel1.bin   | eol_472648       |      0.013379096984863281 |  0.0134 |
+|  3258134 | mudel   | tehnikamudel6.bin  | eol_472648       |        0.7713930010795593 |  0.7714 |
+|  7675539 | mudel   | kultuurimudel1.bin | eol_472648       |      0.037066757678985596 |  0.0371 |
+|  9260708 | erisonu | erisonu            | eol_472648       |                        88 |    NULL |
+|  1503612 | mudel   | majandusmudel1.bin | eol_476728       |        0.7289630174636841 |  0.7290 |
+|  1927174 | mudel   | loodusmudel1.bin   | eol_476728       |     0.0021659135818481445 |  0.0022 |
+|  3261447 | mudel   | tehnikamudel6.bin  | eol_476728       |        0.8822998404502869 |  0.8823 |
+|  7678852 | mudel   | kultuurimudel1.bin | eol_476728       |       0.12785577774047852 |  0.1279 |
+|  9276659 | erisonu | erisonu            | eol_476728       |                        92 |    NULL |
+|  1649508 | mudel   | majandusmudel1.bin | eol_970203       |          0.70281982421875 |  0.7028 |
+|  2073070 | mudel   | loodusmudel1.bin   | eol_970203       |       0.12104183435440063 |  0.1210 |
+|  3407343 | mudel   | tehnikamudel6.bin  | eol_970203       |         0.924528956413269 |  0.9245 |
+|  7824748 | mudel   | kultuurimudel1.bin | eol_970203       |      0.060445547103881836 |  0.0604 |
+| 10129662 | erisonu | erisonu            | eol_970203       |                       756 |    NULL |
+|  1150341 | mudel   | majandusmudel1.bin | ert_315541       |       0.09054398536682129 |  0.0905 |
+|  2159848 | mudel   | loodusmudel1.bin   | ert_315541       |       0.39160865545272827 |  0.3916 |
+|  3494121 | mudel   | tehnikamudel6.bin  | ert_315541       |    0.00010085105895996094 |  0.0001 |
+|  7911526 | mudel   | kultuurimudel1.bin | ert_315541       |        0.9920191764831543 |  0.9920 |
+| 10203497 | erisonu | erisonu            | ert_315541       |                       210 |    NULL |
+|  1162104 | mudel   | majandusmudel1.bin | ert_350450       |         0.977597177028656 |  0.9776 |
+|  2171611 | mudel   | loodusmudel1.bin   | ert_350450       |        0.0983995795249939 |  0.0984 |
+|  3505884 | mudel   | tehnikamudel6.bin  | ert_350450       |        0.4011491537094116 |  0.4011 |
+|  7923289 | mudel   | kultuurimudel1.bin | ert_350450       |       0.11130017042160034 |  0.1113 |
+| 10252782 | erisonu | erisonu            | ert_350450       |                       202 |    NULL |
+|  3866902 | mudel   | loodusmudel1.bin   | ol_2008-12-14_29 |       0.09280019998550415 |  0.0928 |
+|  4824767 | mudel   | majandusmudel1.bin | ol_2008-12-14_29 |     0.0008434057235717773 |  0.0008 |
+|  5782632 | mudel   | tehnikamudel6.bin  | ol_2008-12-14_29 | -0.0000016689300537109375 |  0.0000 |
+|  6740497 | mudel   | kultuurimudel1.bin | ol_2008-12-14_29 |        0.9541456699371338 |  0.9541 |
+|  9305461 | erisonu | erisonu            | ol_2008-12-14_29 |                        32 |    NULL |
+|  3888992 | mudel   | loodusmudel1.bin   | ol_2009-05-15_96 |     0.0020017623901367188 |  0.0020 |
+|  4846857 | mudel   | majandusmudel1.bin | ol_2009-05-15_96 |       0.07162374258041382 |  0.0716 |
+|  5804722 | mudel   | tehnikamudel6.bin  | ol_2009-05-15_96 |      0.026841402053833008 |  0.0268 |
+|  6762587 | mudel   | kultuurimudel1.bin | ol_2009-05-15_96 |         0.657082736492157 |  0.6571 |
+|  9335431 | erisonu | erisonu            | ol_2009-05-15_96 |                        70 |    NULL |
+|  4516078 | mudel   | loodusmudel1.bin   | ol_2024-03-19_32 |      0.019098877906799316 |  0.0191 |
+|  5473943 | mudel   | majandusmudel1.bin | ol_2024-03-19_32 |      0.020527184009552002 |  0.0205 |
+|  6431808 | mudel   | tehnikamudel6.bin  | ol_2024-03-19_32 |    0.00011730194091796875 |  0.0001 |
+|  7389673 | mudel   | kultuurimudel1.bin | ol_2024-03-19_32 |        0.9896743893623352 |  0.9897 |
+| 10408582 | erisonu | erisonu            | ol_2024-03-19_32 |                        71 |    NULL |
++----------+---------+--------------------+------------------+---------------------------+---------+
+50 rows in set (0.04 sec)
