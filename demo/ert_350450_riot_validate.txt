@@ -1,0 +1,2 @@
+(base) jaagup@praktika1:~/public_html/2025/fuseki$ apache-jena-5.6.0/bin/riot --verbose --count  --validate andmed/ert_350450.ttl
+andmed/ert_350450.ttl : Triples = 34

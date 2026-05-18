@@ -1,0 +1,5 @@
+PS C:\jaagup\26\05\mkm\demo> Get-FileHash .\ert_350450.ttl
+
+Algorithm       Hash                                                                   Path
+---------       ----                                                                   ----
+SHA256          F975DF6B06E9FD477CDEAFD2BC1F1D871D2D6B715CEAD989D58EEC6B7F2B9532       C:\jaagup\26\05\mkm\demo\ert_35…

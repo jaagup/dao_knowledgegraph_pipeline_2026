@@ -1,0 +1,51 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dao: <https://dao.institution.ee/ontology/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix : <https://dao.institution.ee/data/ert_350450/> .
+
+# --- The Final Artifact (The TTL File) ---
+:ert_350450_rdf_artifact
+    a prov:Entity , dcat:Distribution ;
+    prov:wasGeneratedBy :pipeline_execution_run_001 ;
+    prov:wasDerivedFrom :raw_article_source ;
+    dao:hasSha256Hash "F975DF6B06E9FD477CDEAFD2BC1F1D871D2D6B715CEAD989D58EEC6B7F2B9532"^^xsd:string ;
+    prov:generatedAtTime "2024-05-20T14:30:00Z"^^xsd:dateTime .
+
+# --- The Source Material ---
+:raw_article_source
+    a prov:Entity ;
+    prov:value "ert_350450" ;
+    dao:originalFormat "text/plain" .
+
+# --- The Pipeline Process (The Activity) ---
+:pipeline_execution_run_001
+    a prov:Activity ;
+    prov:startedAtTime "2024-05-20T14:28:00Z"^^xsd:dateTime ;
+    prov:endedAtTime "2024-05-20T14:30:00Z"^^xsd:dateTime ;
+    prov:used :raw_article_source ;
+    prov:used :nlp_model_v2 ;
+    prov:used :majandusmudell_bin_v1 ;
+    prov:wasAssociatedWith :automated_publication_agent .
+
+# --- The Models used (Version Tracking) ---
+:nlp_model_v2
+    a prov:Entity ;
+    prov:value "NER-EST-BERT-v2" .
+
+:majandusmudell_bin_v1
+    a prov:Entity ;
+    prov:value "majandusmudell.bin" ;
+    dao:modelScore "0.9776"^^xsd:float .
+
+# --- The Acting Agent ---
+:automated_publication_agent
+    a prov:SoftwareAgent ;
+    prov:value "DAO-KG-Pipeline-Processor-v1.0" .
+
+# --- The Governance Proof (The DAO Hash) ---
+:dao_publication_event
+    a prov:Activity ;
+    prov:used :ert_350450_rdf_artifact ;
+    dao:recordedOnChainTx "0x74af...392b" ;
+    dao:governanceStatus "Authorized" .

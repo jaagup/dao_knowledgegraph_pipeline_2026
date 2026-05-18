@@ -1,0 +1,1 @@
+/home/jaagup/public_html/2025/fuseki/apache-jena-5.6.0/bin/tdb2.tdbloader --loc=/home/jaagup/public_html/2025/fuseki/apache-jena-fuseki-5.5.0/andmed/baas2 /home/jaagup/public_html/2025/digihoidla/kood5/valikuvordlused/ttl2/ert_350450.ttl
